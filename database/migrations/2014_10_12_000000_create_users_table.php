@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('area')->notnull();
             $table->string('prof')->notnull();
             $table->string('url')->notnull();
-            $table->string('img');
+            $table->string('img')->nullable();
             $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();

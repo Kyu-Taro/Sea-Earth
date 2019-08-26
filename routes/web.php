@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/index','MainController@index')->name('index');
+Route::get('/logout','MainController@logout');
+Route::post('/login','LoginController@login');
+Route::get('/mypage','MainController@mypage')->name('mypage');

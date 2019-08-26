@@ -1,0 +1,167 @@
+body,ul,h1,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hiragino Mincho Pro';
+}
+li{
+    list-style: none;
+}
+.site-width{
+    width: 980px;
+    margin: auto;
+}
+
+/*
+============================
+        ヘッダーCSS
+============================
+ */
+ header{
+     height: 100px;
+     width :100%;
+     position: fixed;
+     background: rgba(43, 43, 43, 0.63);
+ }
+ nav.header-nav{
+     overflow: hidden;
+     float: right;
+ }
+ ul.header-ul{
+     overflow: hidden;
+     float: right;
+     height: 100px;
+ }
+ .header-ul li{
+     float: left;
+     margin-right: 50px;
+     font-size: 30px;
+     line-height: 100px;
+ }
+ li a{
+     text-decoration: none;
+     color: white;
+ }
+ h1.top-logo{
+     display: inline-block;
+     padding: 0 0 0 120px;
+     font-size: 55px;
+     line-height: 100px;
+ }
+ .top-logo a{
+     text-decoration: none;
+     color: white;
+ }
+ .top-logo a:hover{
+     color: orange;
+ }
+ li a:hover{
+     color: orange;
+ }
+
+/*
+===========================
+        フッターCSS
+===========================
+ */
+ footer{
+     height: 200px;
+     background: rgb(43, 43, 43);
+     color: white;
+     text-align: center;
+ }
+ ul.footer-nav{
+     overflow: hidden;
+     display: inline-block;
+     margin: auto;
+     margin: 45px 0 40px 0;
+ }
+ .footer-nav li{
+     float: left;
+     margin-left: 55px;
+     border-right: solid 1px white;
+     padding-right: 40px;
+ }
+ .footer-nav li:last-child{
+     border: none;
+ }
+ .footer-nav li a{
+     color: white;
+ }
+ p.footer-coment{
+     letter-spacing: 2.5px;
+ }
+ .scroll-span{
+     background: rgb(43, 43, 43);
+     font-size: 35px;
+     font-weight: bold;
+     border-radius: 50%;
+     padding: 17px 20px;
+     position: relative;
+     top: -20px;
+     cursor: pointer;
+ }
+ .footer-nav li a:hover{
+     color: orange;
+ }
+ .scroll-span:hover{
+     color: orange;
+ }
+
+/*
+==========================
+        フォームCSS
+==========================
+ */
+.form-contents{
+    margin: auto;
+    height: 1200px;
+    background-image: url(../img/seapearth-back2.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.form-contents h1{
+    color: rgb(241, 241, 241);;
+    padding-top: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+.form-top{
+    background:rgba(10, 10, 10, 0.555);
+    display: none;
+    height: 1200px;
+}
+.form-container{
+    color: rgb(241, 241, 241);
+    margin: auto;
+    width: 50%;
+    font-size: 18px;
+}
+input[type="text"],input[type="password"],textarea{
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    border: none;
+}
+input[type="submit"]{
+    border: none;
+    padding: 15px 25px;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    background: orange;
+    color: white;
+}
+
+/*
+============================
+        エラーメッセージ
+============================
+ */
+ span.error{
+     color: rgb(255, 92, 92);
+ }
+
