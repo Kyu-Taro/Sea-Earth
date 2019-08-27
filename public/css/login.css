@@ -21,6 +21,7 @@ li{
      width :100%;
      position: fixed;
      background: rgba(43, 43, 43, 0.63);
+     z-index: 5;
  }
  nav.header-nav{
      overflow: hidden;

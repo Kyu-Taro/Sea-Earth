@@ -20,5 +20,15 @@ Route::get('/index','MainController@index')->name('index');
 Route::get('/logout','MainController@logout');
 //ログインルート
 Route::post('/login','LoginController@login');
-//マイページルート
-Route::get('/mypage','MainController@mypage')->name('mypage');
+
+Route::middleware('auth')->group(function(){
+    //マイページルート
+    Route::get('/mypage','MainController@mypage')->name('mypage');
+    //投稿ページルート
+    Route::get('/create','MainController@create')->name('create');
+    //ショップ処理ルート
+    Route::resource('/user','UserController');
+    //投稿処理ルート
+    Route::resource('/text','TextController');
+});
+

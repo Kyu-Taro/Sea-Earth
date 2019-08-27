@@ -20,6 +20,7 @@ li{
      height: 100px;
      width :100%;
      position: fixed;
+     z-index: 5;
  }
  header.active{
      background: rgba(43, 43, 43, 0.63);
@@ -120,7 +121,7 @@ li{
     background-image: url(../img/sea-earth-top.jpg);
     background-repeat:  no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 100% 1000px;
     height: 1000px;
     width: 100%;
     text-align: center;

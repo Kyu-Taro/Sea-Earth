@@ -115,11 +115,11 @@ li{
  */
 .form-contents{
     margin: auto;
-    height: 1200px;
+    height: 1000px;
     background-image: url(../img/seapearth-back2.jpg);
     background-repeat:  no-repeat;
     background-position: center;
-    background-size: 100% 1200px;
+    background-size: 100% 1000px;
 }
 .form-contents h1{
     color: rgb(241, 241, 241);;
@@ -130,7 +130,7 @@ li{
 .form-top{
     background:rgba(10, 10, 10, 0.555);
     display: none;
-    height: 1200px;
+    height: 1000px;
 }
 .form-container{
     color: rgb(241, 241, 241);
@@ -138,10 +138,10 @@ li{
     width: 50%;
     font-size: 18px;
 }
-input[type="text"],input[type="password"],textarea{
+textarea{
     width: 100%;
     padding: 12px 0;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
     border: none;
 }
 input[type="submit"]{
