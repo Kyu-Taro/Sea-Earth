@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+//Authルート
 Auth::routes();
 
+//トップページルート
 Route::get('/index','MainController@index')->name('index');
+//ログアウトルート
 Route::get('/logout','MainController@logout');
+//ログインルート
 Route::post('/login','LoginController@login');
+//マイページルート
 Route::get('/mypage','MainController@mypage')->name('mypage');
