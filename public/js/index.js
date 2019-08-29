@@ -23,6 +23,16 @@ $(function(){
         $('.mypage-container').fadeIn(1600)
     },400);
 
+    //画像詳細のアニメーション
+    setTimeout(function(){
+        $('.text-contents').fadeIn(1600)
+    },400);
+
+    //画像詳細のアニメーション
+    setTimeout(function(){
+        $('.shopDetail-contents').fadeIn(1600)
+    },400);
+
     //画面プレビュー
     var $dropArea = $('.area-drop');
     var $fileInput = $('.input-file');
@@ -48,4 +58,5 @@ $(function(){
         };
         fileReader.readAsDataURL(file);
     });
+
 });

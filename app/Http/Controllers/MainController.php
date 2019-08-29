@@ -43,4 +43,15 @@ class MainController extends Controller
         $user = Auth::user();
         return view('main.create',compact('user'));
     }
+
+    public function setting()
+    {
+        $user = Auth::user();
+        return view('main.setting',compact('user'));
+    }
+
+    public function pass()
+    {
+        return view('main.pass_re');
+    }
 }

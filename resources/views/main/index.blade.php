@@ -24,7 +24,7 @@
             Register
         @endslot
         @slot('link3')
-            photos
+            text
         @endslot
         @slot('nav3')
             Photos
@@ -102,10 +102,10 @@
         Register
     @endslot
     @slot('link3')
-        detail
+        text
     @endslot
     @slot('nav3')
-        Detail
+        Photos
     @endslot
     @slot('link4')
         mypage

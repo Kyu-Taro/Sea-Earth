@@ -1,39 +1,39 @@
 @extends('template.mypageParent')
-@section('title','マイページ')
-@section('href','css/mypage.css')
+@section('title','Sea&Earth|ショップ詳細')
+@section('href','/sea-earth_laravel/public/css/shopDetail.css')
 
 @section('header')
     @component('components.header')
     @slot('link1')
-        logout
+        /sea-earth_laravel/public/index
     @endslot
     @slot('nav1')
-        Logout
+        Top
     @endslot
     @slot('link2')
-        create
+        /sea-earth_laravel/public/create
     @endslot
     @slot('nav2')
         Create
     @endslot
     @slot('link3')
-        text
+        /sea-earth_laravel/public/text
     @endslot
     @slot('nav3')
         Photos
     @endslot
     @slot('link4')
-        setting
+        /sea-earth_laravel/public/mypage
     @endslot
     @slot('nav4')
-        Setting
+        Mypage
     @endslot
     @endcomponent
 @endsection
 
-@section('top-title','マイページ')
+@section('top-title','ショップ情報')
 @section('prof')
-    <img src="@if(empty($user->img)) img/sample.jpg @else {{ $user->img }} @endif">
+    <img src="@if(empty($user->img)) /sea-earth_laravel/public/img/sample.jpg @else {{ $user->img }} @endif">
     <dl>
         <dt>ショップ名</dt>
         <dd>{{ $user->name }}</dd>
@@ -67,32 +67,31 @@
     </div>
 @endsection
 
-
 @section('footer')
-@component('components.footer')
+    @component('components.footer')
     @slot('link1')
-        index
+        /sea-earth_laravel/public/index
     @endslot
     @slot('nav1')
         Top
     @endslot
     @slot('link2')
-        create
+        /sea-earth_laravel/public/create
     @endslot
     @slot('nav2')
         Create
     @endslot
     @slot('link3')
-        text
+        /sea-earth_laravel/public/text
     @endslot
     @slot('nav3')
         Photos
     @endslot
     @slot('link4')
-        setting
+        /sea-earth_laravel/public/mypage
     @endslot
     @slot('nav4')
-        Setting
+        Mypage
     @endslot
     @endcomponent
 @endsection

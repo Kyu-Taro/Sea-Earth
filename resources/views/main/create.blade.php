@@ -17,7 +17,7 @@
         Register
     @endslot
     @slot('link3')
-        photos
+        text
     @endslot
     @slot('nav3')
         Photos
@@ -69,7 +69,7 @@
         Register
     @endslot
     @slot('link3')
-        photos
+        text
     @endslot
     @slot('nav3')
         Photos

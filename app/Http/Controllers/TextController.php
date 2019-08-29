@@ -16,7 +16,9 @@ class TextController extends Controller
      */
     public function index()
     {
-        //
+        $texts = Text::get();
+
+        return view('main.texts',compact('texts'));
     }
 
     /**
@@ -37,8 +39,6 @@ class TextController extends Controller
      */
     public function store(Request $request,CreateRequest $validate)
     {
-        dump($request->file('img'));
-        dump($request->text);
         $form = $request->all();
         unset($form['_token']);
 
@@ -60,7 +60,9 @@ class TextController extends Controller
      */
     public function show($id)
     {
-        //
+        $text = Text::find($id);
+
+        return view('main.textDetail',compact('text'));
     }
 
     /**

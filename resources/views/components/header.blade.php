@@ -1,5 +1,5 @@
 <header>
-    <h1 class="top-logo"><a href="index">Sea&Earth</a></h1>
+    <h1 class="top-logo"><a href="/sea-earth_laravel/public/index">Sea&Earth</a></h1>
     <nav class="header-nav">
         <ul class="header-ul">
             <li><a href="{{ $link1 }}">{{ $nav1 }}</a></li>

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateRequest;
 use Illuminate\Support\Facades\Storage;
+use App\User;
+use App\Text;
 
 class UserController extends Controller
 {
@@ -47,7 +49,15 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = User::find($id);
+        $text = Text::where('shop_id',$id)->get();
+
+        $data = [
+            'user' => $user,
+            'texts' => $text,
+        ];
+
+        return view('main.shopDetail',$data);
     }
 
     /**
@@ -70,7 +80,16 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $form = $request->all();
+        unset($form['_token']);
+
+        $path = Storage::disk('s3')->putFile('seaearth',$request->file('img'),'public');
+        $form['img'] = Storage::disk('s3')->url($path);
+
+        $user = User::find($id);
+        $user->fill($form)->save();
+
+        return redirect()->route('mypage');
     }
 
     /**
