@@ -36,5 +36,7 @@ Route::middleware('auth')->group(function(){
     Route::get('/pass_re','MainController@pass')->name('pass');
     //パス変更処理ルート
     Route::post('/pass_re','MainController@pass_re');
+    //記事削除ルート
+    Route::get('/delete','MainController@text_delete')->name('text_delete');
 });
 

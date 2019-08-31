@@ -176,8 +176,8 @@ li{
     border: 1px solid rgb(241, 241, 241);
     padding: 15px 15px 30px 15px;
     border-radius: 4px;
-    max-height: 360px;
-    min-height: 360px;
+    max-height: 400px;
+    min-height: 400px;
     width: 23%;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.678);
@@ -216,5 +216,9 @@ p.fls_msg{
     height: 30px;
     font-weight: bold;
     display: none;
+}
+a.delete{
+    margin-top: 15px;
+    display: inline-block;
 }
 

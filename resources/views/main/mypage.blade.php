@@ -66,6 +66,7 @@
                 <div class="text-area">
                     {{ $text->text }}
                 </div>
+                <a href="text/{{ $text->id }}/edit" class="delete">削除</a>
             </div>
         @endforeach
     </div>

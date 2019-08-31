@@ -74,7 +74,9 @@ class TextController extends Controller
      */
     public function edit($id)
     {
-        //
+        Text::find($id)->delete();
+        session()->flash('fls_msg','投稿の削除完了しました');
+        return redirect()->route('mypage');
     }
 
     /**
