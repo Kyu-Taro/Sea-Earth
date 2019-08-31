@@ -169,6 +169,7 @@ li{
 }
 .scroll{
     overflow: auto;
+    height: 400px;
 }
 .texts{
     margin: 15px 0 0 15px;
@@ -204,5 +205,16 @@ a{
 .text-area{
     max-height: 43px;
     overflow: auto;
+}
+p.fls_msg{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.527);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    display: none;
 }
 

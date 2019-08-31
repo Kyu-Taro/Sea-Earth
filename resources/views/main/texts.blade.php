@@ -5,7 +5,7 @@
 @section('header')
     @component('components.header')
     @slot('link1')
-        index
+        ./
     @endslot
     @slot('nav1')
         Top
@@ -51,7 +51,7 @@
 @section('footer')
     @component('components.footer')
     @slot('link1')
-        index
+        ./
     @endslot
     @slot('nav1')
         Top

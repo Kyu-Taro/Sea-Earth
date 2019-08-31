@@ -59,4 +59,13 @@ $(function(){
         fileReader.readAsDataURL(file);
     });
 
+    //各ページのスライドトグル
+        //サクセスメッセージ表示
+        var $msg_suc = $('.fls_msg');
+        var msg = $msg_suc.text();
+
+        if(msg.replace(/^[\s　]+|[\s　]+$/g, "").length){
+            $msg_suc.slideToggle('slow');
+            setTimeout(function(){ $msg_suc.slideToggle('slow'); }, 4000);
+        }
 });

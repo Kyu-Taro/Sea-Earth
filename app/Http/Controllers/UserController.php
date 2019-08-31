@@ -7,6 +7,9 @@ use App\Http\Requests\CreateRequest;
 use Illuminate\Support\Facades\Storage;
 use App\User;
 use App\Text;
+use Illuminate\Support\Facades\Hash;
+use App\Http\Requests\SettingRequest;
+use App\Http\Requests\PassRequest;
 
 class UserController extends Controller
 {
@@ -78,18 +81,29 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id,SettingRequest $validata)
     {
-        $form = $request->all();
-        unset($form['_token']);
+            $form = $request->all();
+            unset($form['_token']);
+            $user = User::find($id);
 
-        $path = Storage::disk('s3')->putFile('seaearth',$request->file('img'),'public');
-        $form['img'] = Storage::disk('s3')->url($path);
+            if (!$request->file('img') == null) {
+                $path = Storage::disk('s3')->putFile('seaearth', $request->file('img'), 'public');
+                $form['img'] = Storage::disk('s3')->url($path);
+                $user->fill($form)->save();
+            }else{
+                $user->name = $request->input('name');
+                $user->area = $request->input('area');
+                $user->url = $request->input('url');
+                $user->prof = $request->input('prof');
+                $user->email = $request->input('email');
+                $user->save();
+            }
 
-        $user = User::find($id);
-        $user->fill($form)->save();
+            session()->flash('fls_msg','プロフィール変更完了しました');
 
-        return redirect()->route('mypage');
+            return redirect()->route('mypage');
+
     }
 
     /**

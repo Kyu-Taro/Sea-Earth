@@ -15,7 +15,7 @@
 Auth::routes();
 
 //トップページルート
-Route::get('/index','MainController@index')->name('index');
+Route::get('/','MainController@index')->name('index');
 //ログアウトルート
 Route::get('/logout','MainController@logout');
 //ログインルート
@@ -34,5 +34,7 @@ Route::middleware('auth')->group(function(){
     Route::get('/create','MainController@create')->name('create');
     //パス変更ルート
     Route::get('/pass_re','MainController@pass')->name('pass');
+    //パス変更処理ルート
+    Route::post('/pass_re','MainController@pass_re');
 });
 

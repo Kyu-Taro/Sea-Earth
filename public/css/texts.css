@@ -119,15 +119,15 @@ li{
  */
 .texts-container{
     background-image: url(../img/seapearth-back2.jpg);
-    background-size: 100% 1000px;
+    background-size: 100% 1150px;
     background-repeat:  no-repeat;
     background-position: center;
-    height: 1000px;
+    height: 1150px;
 }
 .mypage-container{
     display: none;
     background: rgba(10, 10, 10, 0.555);
-    height: 1000px;
+    height: 1150px;
 }
 .texts-content{
     padding-top: 150px;
@@ -166,4 +166,8 @@ li{
 .text-area{
     overflow: auto;
     height: 60px;
+}
+.scroll{
+    overflow: auto;
+    height: 800px;
 }

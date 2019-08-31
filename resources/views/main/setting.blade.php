@@ -3,31 +3,31 @@
 @section('title','Sea&Earth|プロフィール変更')
 
 @section('header')
-@component('components.header')
-    @slot('link1')
-        logout
-    @endslot
-    @slot('nav1')
-        Logout
-    @endslot
-    @slot('link2')
-        create
-    @endslot
-    @slot('nav2')
-        Create
-    @endslot
-    @slot('link3')
-        text
-    @endslot
-    @slot('nav3')
-        Photos
-    @endslot
-    @slot('link4')
-        setting
-    @endslot
-    @slot('nav4')
-        Setting
-    @endslot
+    @component('components.header')
+        @slot('link1')
+            logout
+        @endslot
+        @slot('nav1')
+            Logout
+        @endslot
+        @slot('link2')
+            create
+        @endslot
+        @slot('nav2')
+            Create
+        @endslot
+        @slot('link3')
+            text
+        @endslot
+        @slot('nav3')
+            Photos
+        @endslot
+        @slot('link4')
+            setting
+        @endslot
+        @slot('nav4')
+            Setting
+        @endslot
     @endcomponent
 @endsection
 
@@ -46,31 +46,31 @@
         </div>
         名前
         @if ($errors->has('name'))
-            {{ $errors->first('name') }}
+            <span class="error">{{ $errors->first('name') }}</span>
         @endif
         <br>
         <input type="text" name="name" value="{{ $user->name }}"><br/>
         メールアドレス
         @if ($errors->has('email'))
-            {{ $errors->first('email') }}
+            <span class="error">{{ $errors->first('email') }}</span>
         @endif
         <br/>
         <input type="text" name="email" value="{{ $user->email }}"><br/>
         エリア
         @if ($errors->has('area'))
-            {{ $errors->first('area') }}
+            <span class="error">{{ $errors->first('area') }}</span>
         @endif
         <br/>
         <input type="text" name="area" value="{{ $user->area }}"><br/>
         URL
         @if ($errors->has('url'))
-            {{ $errors->first('url') }}
+            <span class="error">{{ $errors->first('url') }}</span>
         @endif
         <br/>
         <input type="text" name="url" value="{{ $user->url }}"><br/>
         ショップ情報
         @if ($errors->has('prof'))
-            {{ $errors->first('prof') }}
+            <span class="error">{{ $errors->first('prof') }}</span>
         @endif
         <br/>
         <textarea name="prof" cols="30" rows="10">{{ $user->prof }}</textarea><br/>

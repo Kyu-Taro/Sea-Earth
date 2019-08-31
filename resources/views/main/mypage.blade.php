@@ -2,6 +2,10 @@
 @section('title','マイページ')
 @section('href','css/mypage.css')
 
+@if (session('fls_msg'))
+    <p class="fls_msg">{{ session('fls_msg') }}</p>
+@endif
+
 @section('header')
     @component('components.header')
     @slot('link1')
@@ -71,7 +75,7 @@
 @section('footer')
 @component('components.footer')
     @slot('link1')
-        index
+        ./
     @endslot
     @slot('nav1')
         Top

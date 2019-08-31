@@ -42,12 +42,13 @@ class TextController extends Controller
         $form = $request->all();
         unset($form['_token']);
 
-        $path = Storage::disk('s3')->putFile('seaearth',$request->file('img','public'));
+        $path = Storage::disk('s3')->putFile('seaearth',$request->file('img'),'public');
         $form['img'] = Storage::disk('s3')->url($path);
 
         $text = new Text();
 
         $text->fill($form)->save();
+        session()->flash('fls_msg','投稿完了しました');
         return redirect()->route('mypage');
 
     }

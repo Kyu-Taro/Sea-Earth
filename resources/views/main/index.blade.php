@@ -10,6 +10,10 @@
     <title>Sea-Earth|トップページ</title>
 </head>
 <body>
+    @if (session('fls_msg'))
+        <p class="fls_msg">{{ session('fls_msg') }}</p>
+    @endif
+
     @component('components.header')
         @slot('link1')
             login
