@@ -62,6 +62,9 @@ li{
  li a:hover{
      color: orange;
  }
+ .fas{
+     display: none;
+ }
 
 /*
 ===========================
@@ -179,7 +182,7 @@ li{
      background: rgb(43, 43, 43);
  }
  .sub-content{
-     height: 565px;
+     height: 660px;
      text-align: center;
  }
  .sub-content h1{
@@ -239,4 +242,127 @@ p.fls_msg{
     display: none;
 }
 
+/*
+===========================
+    レスポンシブ480px
+===========================
+ */
+ @media screen and (max-width: 480px){
+     .site-width{
+         width: 480px;
+     }
 
+/*
+    =======================
+            ヘッダ-
+    =======================
+ */
+     header{
+         width: 480px;
+     }
+     h1.top-logo{
+         padding: 0 0 0 17px;
+         font-size: 27px;
+     }
+     ul.header-ul{
+         display: none;
+    }
+    .fas{
+        color: white;
+        font-size: 30px;
+        padding: 30px 25px 0 0;
+        cursor: pointer;
+    }
+
+/*
+    ======================
+        フッターCSS
+    ======================
+*/
+    footer{
+        height: 300px;
+        width: 480px;
+    }
+    ul footer.nav{
+        width: 480px;
+    }
+    .footer-nav li{
+        margin-left: 25px;
+    }
+
+/*
+    =========================
+            TOPタイトル
+    =========================
+ */
+     .top-title{
+         width: 480px;
+         background-image: url(../img/sea-earth-top.jpg);
+         background-repeat:  no-repeat;
+         background-position: center;
+         background-size: 100% 500px;
+         height: 500px;
+         text-align: center;
+     }
+     .top-title h1{
+         font-size: 30px;
+         padding-top: 250px;
+     }
+
+/*
+    =====================
+        TOPコンテンツ
+    =====================
+ */
+     .top-contents{
+         width: 480px;
+     }
+     .top-content{
+         height: 560px;
+     }
+     .top-content h1{
+         padding-top: 100px;
+         font-size: 50px;
+     }
+     .top-content p{
+         font-size: 20px;
+     }
+
+/*
+    =====================
+        SUBコンテンツ
+    =====================
+ */
+     .sub-contents{
+         width: 480px;
+     }
+     .sub-content{
+         height: 685px;
+     }
+     .sub-content h1{
+         padding-top: 95px;
+         font-size: 50px;
+     }
+     .sub-content p{
+         font-size: 20px;
+     }
+
+/*
+    ======================
+            Detail
+    ======================
+*/
+     .detail{
+         width: 480px;
+     }
+     .detail-content{
+         height: 540px
+     }
+     .detail-content h1{
+         font-size: 40px;
+         padding-top: 95px;
+     }
+     .detail-content p{
+         font-size: 20px;
+     }
+ }

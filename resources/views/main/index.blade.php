@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cdebaefb03.js"></script>
     <title>Sea-Earth|トップページ</title>
 </head>
 <body>
@@ -67,8 +68,10 @@
             <div class="sub-content">
                 <h1>~ご利用について~</h1>
                 <p>
-                    Sea&Earthではショップ様に会員登録をして頂き<br/>
-                    マイページから画像の投稿を行って頂くシステムになっております<br/>
+                    Sea&Earthではショップ様に<br/>
+                    会員登録をして頂き<br/>
+                    マイページから画像の投稿を行って頂く<br/>
+                    システムになっております。<br/>
                     基本的には写真の投稿者は、ダイビングショップ様に限らせて頂きます<br/>
                     投稿写真の回覧は全ての利用者の方が回覧、利用が可能となっております<br/>
                     また、回覧には会員登録等の必要もなくご利用いただけます<br/>
