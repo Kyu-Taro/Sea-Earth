@@ -290,10 +290,13 @@ a{
         background-image: url(../img/sea-earth-top.jpg);
         background-repeat:  no-repeat;
         background-position: center;
-        background-size: 100% 600px;
-        height: 600px;
+        background-size: 100% 1000px;
+        height: 1000px;
     }
-    .top-title h1{
-        font-size: 30px;
-        padding-top: 250px;
+    .text-contents{
+        height: 600px
     }
+    .text img{
+        width: 480px
+    }
+ }
