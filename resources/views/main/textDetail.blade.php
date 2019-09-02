@@ -1,5 +1,5 @@
 @extends('template.textDetailParent')
-@section('href','/sea-earth_laravel/public/css/textDetail.css')
+@section('href','/css/textDetail.css')
 @section('title','Sea&Earth|画像詳細')
 
 @section('header')
