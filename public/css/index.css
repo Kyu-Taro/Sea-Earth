@@ -317,9 +317,6 @@ p.fls_msg{
             ヘッダ-
     =======================
  */
-     /* header{
-         width: 480px;
-     } */
      h1.top-logo{
          padding: 0 0 0 17px;
          font-size: 27px;
@@ -347,7 +344,6 @@ p.fls_msg{
     =========================
  */
      .top-title{
-         /* width: 480px; */
          background-image: url(../img/sea-earth-top.jpg);
          background-repeat:  no-repeat;
          background-position: center;
