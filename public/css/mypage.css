@@ -375,6 +375,7 @@ a.delete{
         margin-right: 10px;
         float: right;
         max-width: 280px;
+        min-width: 280px;
     }
     dl.on{
         width: 100%;
