@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="@yield('href')">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cdebaefb03.js"></script>
     <title>@yield('title')</title>
 </head>
 <body>
