@@ -10,4 +10,5 @@
     </nav>
     <p class="footer-coment">Copyright © 2007-2012 Kytaro&Mochi All Rights Reserved.</p>
 </footer>
+<script src="/sea-earth_laravel/public/js/index.js"></script>
 <script src="/js/index.js"></script>
