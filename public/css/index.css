@@ -283,9 +283,6 @@ p.fls_msg{
 ===========================
  */
  @media screen and (max-width: 480px){
-     .site-width{
-         width: 480px;
-     }
      br.res{
          display: block;
      }
@@ -308,15 +305,18 @@ p.fls_msg{
         right: 25px;
         top: 30px;
     }
+    .site-width{
+        width: 100%;
+    }
 
 /*
     =======================
             ヘッダ-
     =======================
  */
-     header{
+     /* header{
          width: 480px;
-     }
+     } */
      h1.top-logo{
          padding: 0 0 0 17px;
          font-size: 27px;
@@ -332,11 +332,11 @@ p.fls_msg{
 */
     footer{
         height: 300px;
-        width: 480px;
+        /* width: 480px; */
     }
-    ul footer.nav{
+    /* ul footer.nav{
         width: 480px;
-    }
+    } */
     .footer-nav li{
         margin-left: 25px;
     }
@@ -347,7 +347,7 @@ p.fls_msg{
     =========================
  */
      .top-title{
-         width: 480px;
+         /* width: 480px; */
          background-image: url(../img/sea-earth-top.jpg);
          background-repeat:  no-repeat;
          background-position: center;
@@ -366,7 +366,7 @@ p.fls_msg{
     =====================
  */
      .top-contents{
-         width: 480px;
+         /* width: 480px; */
      }
      .top-content{
          height: 560px;
@@ -385,7 +385,7 @@ p.fls_msg{
     =====================
  */
      .sub-contents{
-         width: 480px;
+         /* width: 480px; */
      }
      .sub-content{
          height: 685px;
@@ -404,7 +404,7 @@ p.fls_msg{
     ======================
 */
      .detail{
-         width: 480px;
+         /* width: 480px; */
      }
      .detail-content{
          height: 540px
