@@ -7,12 +7,24 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cdebaefb03.js"></script>
     <title>Sea-Earth|トップページ</title>
 </head>
 <body>
     @if (session('fls_msg'))
         <p class="fls_msg">{{ session('fls_msg') }}</p>
     @endif
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-undo"></i>
+    <div class="menu">
+        <span class="comment">Menu</span>
+        <ul class="menu-ul">
+            <li><a href="login">Login</a></li>
+            <li><a href="register">Register</a></li>
+            <li><a href="text">Photos</a></li>
+            <li><a href="mypage">Mypage</a></li>
+        </ul>
+    </div>
 
     @component('components.header')
         @slot('link1')
@@ -52,9 +64,9 @@
             <div class="top-content">
                 <h1>~Sea&Earthとは~</h1>
                 <p>
-                    Sea&Earthとは海の写真だけを掲載する<br/>
+                    Sea&Earthとは<br class="res">海の写真だけを掲載する<br/>
                     写真投稿サイトです<br/>
-                    海の写真と言っても、皆さんが普段目にする海ではなく<br/>
+                    海の写真と言っても<br class="res">皆さんが普段目にする<br class="res">海ではなく<br/>
                     海の中を覗いている気分になるような<br/>
                     神秘的な水中写真を回覧することができます<br/>
                 </p>
@@ -67,11 +79,11 @@
             <div class="sub-content">
                 <h1>~ご利用について~</h1>
                 <p>
-                    Sea&Earthではショップ様に会員登録をして頂き<br/>
-                    マイページから画像の投稿を行って頂くシステムになっております<br/>
-                    基本的には写真の投稿者は、ダイビングショップ様に限らせて頂きます<br/>
-                    投稿写真の回覧は全ての利用者の方が回覧、利用が可能となっております<br/>
-                    また、回覧には会員登録等の必要もなくご利用いただけます<br/>
+                    Sea&Earthではショップ様に<br class="res">会員登録をして頂き<br/>
+                    マイページから画像の投稿を<br class="res">行って頂くシステムになっております。<br/>
+                    基本的には写真の投稿者は<br class="res">ダイビングショップ様に限らせて頂きます<br/>
+                    投稿写真の回覧は全ての利用者の方が<br class="res">回覧、利用が可能となっております<br/>
+                    また、回覧には会員登録等の必要もなく<br class="res">ご利用いただけます<br/>
                 </p>
                 <a href="register">Member registration</a>
             </div>
@@ -82,10 +94,10 @@
             <div class="detail-content">
                 <h1>~ご利用に際しての注意~</h1>
                 <p>
-                    Sea&Earthに投稿される全ての写真に関しまして<br/>
-                    全てフリー素材としての利用が可能となっております<br/>
+                    Sea&Earthに投稿される<br class="res">全ての写真に関しまして<br/>
+                    全てフリー素材としての<br class="res">利用が可能となっております<br/>
                     また、ショップ様におかれましては<br/>
-                    投稿する写真全てフリー素材としての利用を承諾の上<br/>
+                    投稿する写真は全てフリー素材としての<br class="res">利用を承諾の上<br/>
                     ご利用頂きますようお願い申し上げます<br/>
                 </p>
             </div>
