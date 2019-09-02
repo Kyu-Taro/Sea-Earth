@@ -72,10 +72,10 @@
                 <h1>~Sea&Earthとは~</h1>
                 <p>
                     Sea&Earthとは<br class="res">海の写真だけを掲載する<br/>
-                    写真投稿サイトです<br/>
+                    写真投稿サイトです。<br/>
                     海の写真と言っても<br class="res">皆さんが普段目にする<br class="res">海ではなく<br/>
-                    海の中を覗いている気分になるような<br/>
-                    神秘的な水中写真を回覧することができます<br/>
+                    海の中を覗いている気分<br class="res">になるような<br/>
+                    神秘的な水中写真を<br class="res">回覧することができます<br/>
                 </p>
                 <a href="text">Go see photos</a>
             </div>
@@ -87,10 +87,10 @@
                 <h1>~ご利用について~</h1>
                 <p>
                     Sea&Earthではショップ様に<br class="res">会員登録をして頂き<br/>
-                    マイページから画像の投稿を<br class="res">行って頂くシステムになっております。<br/>
-                    基本的には写真の投稿者は<br class="res">ダイビングショップ様に限らせて頂きます<br/>
-                    投稿写真の回覧は全ての利用者の方が<br class="res">回覧、利用が可能となっております<br/>
-                    また、回覧には会員登録等の必要もなく<br class="res">ご利用いただけます<br/>
+                    マイページから画像の投稿を<br class="res">行って頂くシステムに<br class="res">なっております。<br/>
+                    基本的には写真の投稿者は<br class="res">ダイビングショップ様に<br class="res">限らせて頂きます<br/>
+                    投稿写真の回覧は<br class="res">全ての利用者の方が回覧、利用が<br class="res">可能となっております。<br/>
+                    また回覧には<br class="res">会員登録等の必要もなく<br class="res">ご利用いただけます<br/>
                 </p>
                 <a href="register">Member registration</a>
             </div>
@@ -104,7 +104,7 @@
                     Sea&Earthに投稿される<br class="res">全ての写真に関しまして<br/>
                     全てフリー素材としての<br class="res">利用が可能となっております<br/>
                     また、ショップ様におかれましては<br/>
-                    投稿する写真は全てフリー素材としての<br class="res">利用を承諾の上<br/>
+                    投稿する写真は全て<br class="res">フリー素材としての<br class="res">利用を承諾の上<br/>
                     ご利用頂きますようお願い申し上げます<br/>
                 </p>
             </div>
