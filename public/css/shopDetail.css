@@ -10,6 +10,47 @@ li{
     width: 980px;
     margin: auto;
 }
+br.res{
+    display: none;
+}
+.on{
+    display: none;
+}
+.menu{
+    width: 40%;
+    background: rgba(43, 43, 43, 0.699);
+    height: 339px;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    display: none;
+}
+.menu-ul{
+    padding-top: 5px;
+}
+.menu-ul li{
+    border-bottom: solid 1px white;
+    margin-top: 15px;
+    padding-bottom: 18px;
+}
+.menu-ul li:last-child{
+    border: none;
+}
+span.comment{
+    color: white;
+    line-height: 100px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+i.fa-bars{
+    display: none;
+}
+i.fa-undo{
+    display: none;
+}
 
 /*
 ============================
@@ -206,3 +247,132 @@ a{
     max-height: 43px;
     overflow: auto;
 }
+/*
+===========================
+    レスポンシブ480px
+===========================
+ */
+ @media screen and (max-width: 480px){
+    .site-width{
+        width: 480px;
+    }
+    br.res{
+        display: block;
+    }
+    .on{
+        display: block;
+    }
+    i.fa-bars{
+       color: white;
+       font-size: 30px;
+       cursor: pointer;
+       z-index: 11;
+       position: fixed;
+       right: 25px;
+       top: 30px;
+       display: block;
+   }
+   i.fa-undo{
+       color: white;
+       font-size: 30px;
+       cursor: pointer;
+       z-index: 11;
+       position: fixed;
+       right: 25px;
+       top: 30px;
+   }
+   dl.res{
+       display: none;
+   }
+
+/*
+   =======================
+           ヘッダ-
+   =======================
+*/
+    header{
+        width: 480px;
+    }
+    h1.top-logo{
+        padding: 0 0 0 17px;
+        font-size: 27px;
+    }
+    ul.header-ul{
+        display: none;
+   }
+
+/*
+   ======================
+       フッターCSS
+   ======================
+*/
+   footer{
+       height: 300px;
+       width: 480px;
+   }
+   ul footer.nav{
+       width: 480px;
+   }
+   .footer-nav li{
+       margin-left: 25px;
+   }
+
+/*
+   =========================
+           TOPタイトル
+   =========================
+*/
+    .mypage-containers{
+        width: 480px;
+        background-image: url(../img/sea-earth-top.jpg);
+        background-repeat:  no-repeat;
+        background-position: center;
+        background-size: 100% 1400px;
+        height: 1400px;
+    }
+    .mypage-container{
+        height: 1400px;
+    }
+    .mypage-contens{
+        width:480px;
+    }
+    .mypage-content{
+        width: 480px;
+        height: 700px;
+    }
+    .mypage-content img{
+        width: 140px;
+        height: 140px;
+        float: left;
+        position: relative;
+        left: 33px;
+    }
+    h2.on{
+        display: inline-block;
+        margin-left: 60px;
+        margin-top: 50px;
+        color: orange;
+        position: relative;
+        left: 41px;
+    }
+    p.on{
+        font-size: 23px;
+        margin-top: 20px;
+        margin-right: 10px;
+        float: right;
+        max-width: 280px;
+        min-width: 280px;
+    }
+    dl.on{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .text-content{
+        margin-top: 30px;
+    }
+    .texts{
+        width: 46%;
+    }
+    .texts img{
+        width: 190px;
+    }
