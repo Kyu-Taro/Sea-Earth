@@ -294,13 +294,14 @@ a{
         height: 1000px;
     }
     .text-contents{
-        height: 600px
+        height: 1000px
     }
     .text img{
         width: 350px;
         height: 350px;
     }
     .img{
+        width: 350px;
         margin: auto;
     }
  }
