@@ -68,4 +68,19 @@ $(function(){
             $msg_suc.slideToggle('slow');
             setTimeout(function(){ $msg_suc.slideToggle('slow'); }, 4000);
         }
+
+    //レスポンシブメニュー
+    var $menu = $('i.fa-bars');
+    $menu.on('click',function(){
+        $('.menu').fadeIn();
+        $menu.css('display','none');
+        $('i.fa-undo').fadeIn();
+    });
+
+    var $back = $('i.fa-undo');
+    $back.on('click',function(){
+        $('.menu').fadeOut();
+        $back.css('display','none');
+        $('i.fa-bars').fadeIn();
+    });
 });

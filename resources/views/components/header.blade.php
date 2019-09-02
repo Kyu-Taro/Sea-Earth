@@ -7,6 +7,5 @@
             <li><a href="{{ $link3 }}">{{ $nav3 }}</a></li>
             <li><a href="{{ $link4 }}">{{ $nav4 }}</a></li>
         </ul>
-        <i class="fas fa-bars"></i>
     </nav>
 </header>

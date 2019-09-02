@@ -13,6 +13,35 @@ li{
 br.res{
     display: none;
 }
+.menu{
+    width: 40%;
+    background: rgba(43, 43, 43, 0.699);
+    height: 339px;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    display: none;
+}
+.menu-ul{
+    padding-top: 5px;
+}
+.menu-ul li{
+    border-bottom: solid 1px white;
+    margin-top: 15px;
+    padding-bottom: 18px;
+}
+.menu-ul li:last-child{
+    border: none;
+}
+span.comment{
+    color: white;
+    line-height: 100px;
+    margin-right: 25px;
+    font-weight: bold;
+}
 
 /*
 ============================
@@ -65,7 +94,10 @@ br.res{
  li a:hover{
      color: orange;
  }
- .fas{
+ i.fa-bars{
+     display: none;
+ }
+ i.fa-undo{
      display: none;
  }
 
@@ -273,11 +305,24 @@ p.fls_msg{
      ul.header-ul{
          display: none;
     }
-    .fas{
+    i.fa-bars{
         color: white;
         font-size: 30px;
-        padding: 30px 25px 0 0;
         cursor: pointer;
+        z-index: 11;
+        position: fixed;
+        right: 25px;
+        top: 30px;
+        display: block;
+    }
+    i.fa-undo{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 11;
+        position: fixed;
+        right: 25px;
+        top: 30px;
     }
 
 /*
