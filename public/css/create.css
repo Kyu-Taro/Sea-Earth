@@ -10,6 +10,41 @@ li{
     width: 980px;
     margin: auto;
 }
+i.fa-bars{
+    display: none;
+}
+i.fa-undo{
+    display: none;
+}
+.menu{
+    width: 40%;
+    background: rgba(43, 43, 43, 0.699);
+    height: 339px;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    display: none;
+}
+.menu-ul{
+    padding-top: 5px;
+}
+.menu-ul li{
+    border-bottom: solid 1px white;
+    margin-top: 15px;
+    padding-bottom: 18px;
+}
+.menu-ul li:last-child{
+    border: none;
+}
+span.comment{
+    color: white;
+    line-height: 100px;
+    margin-right: 25px;
+    font-weight: bold;
+}
 
 /*
 ============================
@@ -194,4 +229,105 @@ input[type="file"]{
  span.error{
      color: rgb(255, 92, 92);
  }
+
+/*
+===========================
+    レスポンシブ480px
+===========================
+ */
+ @media screen and (max-width: 480px){
+    .site-width{
+        width: 480px;
+    }
+    br.res{
+        display: block;
+    }
+    i.fa-bars{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 11;
+        position: fixed;
+        right: 25px;
+        top: 30px;
+        display: block;
+    }
+    i.fa-undo{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 11;
+        position: fixed;
+        right: 25px;
+        top: 30px;
+    }
+
+/*
+   =======================
+           ヘッダ-
+   =======================
+*/
+    header{
+        width: 480px;
+    }
+    h1.top-logo{
+        padding: 0 0 0 17px;
+        font-size: 27px;
+    }
+    ul.header-ul{
+        display: none;
+   }
+   i.fa-bars{
+       color: white;
+       font-size: 30px;
+       cursor: pointer;
+       z-index: 11;
+       position: fixed;
+       right: 25px;
+       top: 30px;
+       display: block;
+   }
+   i.fa-undo{
+       color: white;
+       font-size: 30px;
+       cursor: pointer;
+       z-index: 11;
+       position: fixed;
+       right: 25px;
+       top: 30px;
+   }
+
+/*
+   ======================
+       フッターCSS
+   ======================
+*/
+   footer{
+       height: 300px;
+       width: 480px;
+   }
+   ul footer.nav{
+       width: 480px;
+   }
+   .footer-nav li{
+       margin-left: 25px;
+   }
+
+/*
+   =========================
+           TOPタイトル
+   =========================
+*/
+    .form-contents{
+        width: 480px;
+        background-image: url(../img/sea-earth-top.jpg);
+        background-repeat:  no-repeat;
+        background-position: center;
+        background-size: 100% 600px;
+        height: 600px;
+    }
+    .top-title h1{
+        font-size: 30px;
+        padding-top: 250px;
+    }
 
