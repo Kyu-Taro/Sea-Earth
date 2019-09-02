@@ -208,7 +208,9 @@ input[type="submit"]{
  */
  @media screen and (max-width: 480px){
     .site-width{
-        width: 480px;
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     br.res{
         display: block;
@@ -238,9 +240,6 @@ input[type="submit"]{
            ヘッダ-
    =======================
 */
-    header{
-        width: 480px;
-    }
     h1.top-logo{
         padding: 0 0 0 17px;
         font-size: 27px;
@@ -275,10 +274,6 @@ input[type="submit"]{
 */
    footer{
        height: 300px;
-       width: 480px;
-   }
-   ul footer.nav{
-       width: 480px;
    }
    .footer-nav li{
        margin-left: 25px;
@@ -290,7 +285,6 @@ input[type="submit"]{
    =========================
 */
     .form-contents{
-        width: 480px;
         background-image: url(../img/sea-earth-top.jpg);
         background-repeat:  no-repeat;
         background-position: center;
