@@ -370,10 +370,11 @@ a.delete{
         left: 41px;
     }
     p.on{
-        margin-left: 77px;
-        display: inline-block;
         font-size: 23px;
         margin-top: 20px;
+        margin-right: 10px;
+        float: right;
+        max-width: 280px;
     }
     dl.on{
         width: 100%;
