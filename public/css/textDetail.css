@@ -285,7 +285,7 @@ a{
            TOPタイトル
    =========================
 */
-    .form-contents{
+    .text-container{
         width: 480px;
         background-image: url(../img/sea-earth-top.jpg);
         background-repeat:  no-repeat;
