@@ -2,31 +2,43 @@
 @section('href','/css/textDetail.css')
 @section('title','Sea&Earth|画像詳細')
 
+<i class="fas fa-bars"></i>
+<i class="fas fa-undo"></i>
+<div class="menu">
+    <span class="comment">Menu</span>
+    <ul class="menu-ul">
+        <li><a href="/">Top</a></li>
+        <li><a href="/create">Create</a></li>
+        <li><a href="/text">Photos</a></li>
+        <li><a href="/mypage">Mypage</a></li>
+    </ul>
+</div>
+
 @section('header')
     @component('components.header')
     @slot('link1')
-        /sea-earth_laravel/public/
+        /
     @endslot
     @slot('nav1')
         Top
     @endslot
     @slot('link2')
-        /sea-earth_laravel/public/create
+        /create
     @endslot
     @slot('nav2')
         Create
     @endslot
     @slot('link3')
-        /sea-earth_laravel/public/text
+        /text
     @endslot
     @slot('nav3')
         Photos
     @endslot
     @slot('link4')
-        /sea-earth_laravel/public/setting
+        /mypage
     @endslot
     @slot('nav4')
-        Setting
+        Mypage
     @endslot
     @endcomponent
 @endsection
@@ -65,10 +77,10 @@
         Photos
     @endslot
     @slot('link4')
-        /setting
+        /mypage
     @endslot
     @slot('nav4')
-        Setting
+        Mypage
     @endslot
     @endcomponent
 @endsection
