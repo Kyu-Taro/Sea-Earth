@@ -10,6 +10,9 @@ li{
     width: 980px;
     margin: auto;
 }
+br.res{
+    display: none;
+}
 
 /*
 ============================
@@ -250,6 +253,9 @@ p.fls_msg{
  @media screen and (max-width: 480px){
      .site-width{
          width: 480px;
+     }
+     br.res{
+         display: block;
      }
 
 /*
