@@ -5,6 +5,17 @@
 @if (session('fls_msg'))
     <p class="fls_msg">{{ session('fls_msg') }}</p>
 @endif
+<i class="fas fa-bars"></i>
+<i class="fas fa-undo"></i>
+<div class="menu">
+    <span class="comment">Menu</span>
+    <ul class="menu-ul">
+        <li><a href="logout">Logout</a></li>
+        <li><a href="create">Create</a></li>
+        <li><a href="text">Photos</a></li>
+        <li><a href="setting">Setting</a></li>
+    </ul>
+</div>
 
 @section('header')
     @component('components.header')

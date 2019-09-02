@@ -11,18 +11,6 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    <i class="fas fa-bars"></i>
-    <i class="fas fa-undo"></i>
-    <div class="menu">
-        <span class="comment">Menu</span>
-        <ul class="menu-ul">
-            <li><a href="logout">Logout</a></li>
-            <li><a href="create">Create</a></li>
-            <li><a href="text">Photos</a></li>
-            <li><a href="setting">Setting</a></li>
-        </ul>
-    </div>
-
     @yield('header')
 
     <section>

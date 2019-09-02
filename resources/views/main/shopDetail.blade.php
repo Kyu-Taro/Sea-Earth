@@ -1,6 +1,17 @@
 @extends('template.mypageParent')
 @section('title','Sea&Earth|ショップ詳細')
 @section('href','/css/shopDetail.css')
+<i class="fas fa-bars"></i>
+<i class="fas fa-undo"></i>
+<div class="menu">
+    <span class="comment">Menu</span>
+    <ul class="menu-ul">
+        <li><a href="/">Top</a></li>
+        <li><a href="/create">Create</a></li>
+        <li><a href="/text">Photos</a></li>
+        <li><a href="/mypage">Mypage</a></li>
+    </ul>
+</div>
 
 @section('header')
     @component('components.header')

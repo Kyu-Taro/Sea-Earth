@@ -47,25 +47,25 @@
 @section('footer')
     @component('components.footer')
     @slot('link1')
-        /sea-earth_laravel/public/
+        /
     @endslot
     @slot('nav1')
         Top
     @endslot
     @slot('link2')
-        /sea-earth_laravel/public/create
+        /create
     @endslot
     @slot('nav2')
         Create
     @endslot
     @slot('link3')
-        /sea-earth_laravel/public/text
+        /text
     @endslot
     @slot('nav3')
         Photos
     @endslot
     @slot('link4')
-        /sea-earth_laravel/public/setting
+        /setting
     @endslot
     @slot('nav4')
         Setting
