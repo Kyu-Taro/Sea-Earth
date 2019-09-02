@@ -34,9 +34,19 @@
 @section('top-title','ショップ情報')
 @section('prof')
     <img src="@if(empty($user->img)) /sea-earth_laravel/public/img/sample.jpg @else {{ $user->img }} @endif">
-    <dl>
+    <dl class="res">
         <dt>ショップ名</dt>
         <dd>{{ $user->name }}</dd>
+        <dt>メールアドレス</dt>
+        <dd>{{ $user->email }}</dd>
+        <dt>area</dt>
+        <dd>{{ $user->area }}</dd>
+        <dt>url</dt>
+        <dd>{{ $user->url }}</dd>
+        <dt>ショップ情報</dt>
+        <dd>{{ $user->prof }}</dd>
+    </dl>
+    <dl class="on">
         <dt>メールアドレス</dt>
         <dd>{{ $user->email }}</dd>
         <dt>area</dt>
