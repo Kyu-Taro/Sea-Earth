@@ -1,6 +1,6 @@
 @extends('template.mypageParent')
 @section('title','Sea&Earth|ショップ詳細')
-@section('href','/css/shopDetail.css')
+@section('href','/sea-earth_laravel/public/css/shopDetail.css')
 
 @section('header')
     @component('components.header')
