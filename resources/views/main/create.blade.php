@@ -1,6 +1,17 @@
 @extends('template.form')
 @section('href','css/create.css')
 @section('title','Sea&Earth|写真投稿')
+<i class="fas fa-bars"></i>
+<i class="fas fa-undo"></i>
+<div class="menu">
+    <span class="comment">Menu</span>
+    <ul class="menu-ul">
+        <li><a href="top">Top</a></li>
+        <li><a href="setting">Setting</a></li>
+        <li><a href="text">Photos</a></li>
+        <li><a href="mypage">Mypage</a></li>
+    </ul>
+</div>
 
 @section('header')
     @component('components.header')
@@ -57,16 +68,16 @@
 @section('footer')
     @component('components.footer')
     @slot('link1')
-        login
+        /
     @endslot
     @slot('nav1')
-        Login
+        Top
     @endslot
     @slot('link2')
-        register
+        setting
     @endslot
     @slot('nav2')
-        Register
+        Setting
     @endslot
     @slot('link3')
         text

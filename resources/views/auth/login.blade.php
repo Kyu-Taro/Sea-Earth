@@ -2,6 +2,18 @@
 @section('href','css/login.css')
 @section('title','Sea&Earth|ログイン')
 
+<i class="fas fa-bars"></i>
+<i class="fas fa-undo"></i>
+<div class="menu">
+    <span class="comment">Menu</span>
+    <ul class="menu-ul">
+        <li><a href="/">Top</a></li>
+        <li><a href="register">Register</a></li>
+        <li><a href="text">Photos</a></li>
+        <li><a href="mypage">Mypage</a></li>
+    </ul>
+</div>
+
 @section('header')
     @component('components.header')
     @slot('link1')
