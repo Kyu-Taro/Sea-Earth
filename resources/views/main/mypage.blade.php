@@ -51,7 +51,7 @@
         <dd>{{ $user->prof }}</dd>
     </dl>
     <h2 class="on">ショップ名</h2>
-    <span class="on">{{ $user->name }}</span>
+    <p class="on">{{ $user->name }}</p>
     <dl class="on">
         <dt>メールアドレス</dt>
         <dd>{{ $user->email }}</dd>
