@@ -392,3 +392,7 @@ a{
         max-width: 280px;
         min-width: 280px;
     }
+    .on dt{
+        padding-left: 10px;
+    }
+ }
