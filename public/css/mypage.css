@@ -358,12 +358,16 @@ a.delete{
         width: 140px;
         height: 140px;
         float: left;
+        position: relative;
+        left: 33px;
     }
     h2.on{
         display: inline-block;
         margin-left: 60px;
         margin-top: 50px;
         color: orange;
+        position: relative;
+        left: 41px;
     }
     span.on{
         margin-left: 77px;
@@ -379,6 +383,9 @@ a.delete{
     }
     .on dd{
         margin: 0;
+    }
+    .text-content{
+        margin-top: 30px;
     }
     .texts{
         width: 46%;
