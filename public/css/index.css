@@ -307,6 +307,8 @@ p.fls_msg{
     }
     .site-width{
         width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
 /*
