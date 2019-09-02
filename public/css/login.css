@@ -211,6 +211,7 @@ input[type="submit"]{
         width: 100%;
         padding-right: 10px;
         padding-left: 10px;
+        box-sizing: border-box;
     }
     br.res{
         display: block;
@@ -277,6 +278,7 @@ input[type="submit"]{
    }
    .footer-nav li{
        margin-left: 25px;
+       padding: 14px;
    }
 
 /*
