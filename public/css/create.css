@@ -323,8 +323,11 @@ input[type="file"]{
         background-image: url(../img/sea-earth-top.jpg);
         background-repeat:  no-repeat;
         background-position: center;
-        background-size: 100% 600px;
-        height: 600px;
+        background-size: 100% 900px;
+        height: 900px;
+    }
+    .form-top{
+        height: 900px;
     }
     .top-title h1{
         font-size: 30px;
