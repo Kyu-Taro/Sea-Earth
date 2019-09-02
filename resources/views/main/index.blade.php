@@ -70,7 +70,7 @@
                     海の中を覗いている気分になるような<br/>
                     神秘的な水中写真を回覧することができます<br/>
                 </p>
-                <a href="photos">Go see photos</a>
+                <a href="text">Go see photos</a>
             </div>
         </div>
     </section>
