@@ -204,7 +204,10 @@ a{
  */
  @media screen and (max-width: 480px){
     .site-width{
-        width: 480px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
     }
     br.res{
         display: block;
@@ -234,9 +237,6 @@ a{
            ヘッダ-
    =======================
 */
-    header{
-        width: 480px;
-    }
     h1.top-logo{
         padding: 0 0 0 17px;
         font-size: 27px;
@@ -271,13 +271,15 @@ a{
 */
    footer{
        height: 300px;
-       width: 480px;
-   }
-   ul footer.nav{
-       width: 480px;
    }
    .footer-nav li{
-       margin-left: 25px;
+        margin-left: 25px;
+        padding: 14px;
+        margin: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 25%;
    }
 
 /*
@@ -286,7 +288,6 @@ a{
    =========================
 */
     .text-container{
-        width: 480px;
         background-image: url(../img/sea-earth-top.jpg);
         background-repeat:  no-repeat;
         background-position: center;
