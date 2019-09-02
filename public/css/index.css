@@ -42,6 +42,12 @@ span.comment{
     margin-right: 25px;
     font-weight: bold;
 }
+i.fa-bars{
+    display: none;
+}
+i.fa-undo{
+    display: none;
+}
 
 /*
 ============================
@@ -93,12 +99,6 @@ span.comment{
  }
  li a:hover{
      color: orange;
- }
- i.fa-bars{
-     display: none;
- }
- i.fa-undo{
-     display: none;
  }
 
 /*
@@ -289,23 +289,7 @@ p.fls_msg{
      br.res{
          display: block;
      }
-
-/*
-    =======================
-            ヘッダ-
-    =======================
- */
-     header{
-         width: 480px;
-     }
-     h1.top-logo{
-         padding: 0 0 0 17px;
-         font-size: 27px;
-     }
-     ul.header-ul{
-         display: none;
-    }
-    i.fa-bars{
+     i.fa-bars{
         color: white;
         font-size: 30px;
         cursor: pointer;
@@ -323,6 +307,22 @@ p.fls_msg{
         position: fixed;
         right: 25px;
         top: 30px;
+    }
+
+/*
+    =======================
+            ヘッダ-
+    =======================
+ */
+     header{
+         width: 480px;
+     }
+     h1.top-logo{
+         padding: 0 0 0 17px;
+         font-size: 27px;
+     }
+     ul.header-ul{
+         display: none;
     }
 
 /*
