@@ -297,6 +297,10 @@ a{
         height: 600px
     }
     .text img{
-        width: 480px
+        width: 350px;
+        height: 350px;
+    }
+    .img{
+        margin: auto;
     }
  }

@@ -46,7 +46,9 @@
 @section('top-title','画像詳細')
 @section('content')
     <div class="text">
-        <img src="{{ $text->img }}"><br/>
+        <div class="img">
+            <img src="{{ $text->img }}"><br/>
+        </div>
         <div class="text-area-container">
             <div class="text-area">ショップ名: <a href="/user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/></div>
             <div class="text-area">エリア: {{ $text->user->area }}<br/></div>
