@@ -7,9 +7,21 @@
     <link rel="stylesheet" type="text/css" href="@yield('href')">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cdebaefb03.js"></script>
     <title>@yield('title')</title>
 </head>
 <body>
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-undo"></i>
+    <div class="menu">
+        <span class="comment">Menu</span>
+        <ul class="menu-ul">
+            <li><a href="/">Top</a></li>
+            <li><a href="login">Login</a></li>
+            <li><a href="setting">Setting</a></li>
+            <li><a href="mypage">Mypage</a></li>
+        </ul>
+    </div>
     @yield('header')
 
     <section>
