@@ -38,7 +38,7 @@
 @section('top-title','マイページ')
 @section('prof')
     <img src="@if(empty($user->img)) img/sample.jpg @else {{ $user->img }} @endif">
-    <dl>
+    <dl class="res">
         <dt>ショップ名</dt>
         <dd>{{ $user->name }}</dd>
         <dt>メールアドレス</dt>
@@ -46,6 +46,18 @@
         <dt>area</dt>
         <dd>{{ $user->area }}</dd>
         <dt>url</dt>
+        <dd>{{ $user->url }}</dd>
+        <dt>ショップ情報</dt>
+        <dd>{{ $user->prof }}</dd>
+    </dl>
+    <h2 class="on">ショップ名</h2>
+    <span class="on">{{ $user->name }}</span>
+    <dl class="on">
+        <dt>メールアドレス</dt>
+        <dd>{{ $user->email }}</dd>
+        <dt>エリア</dt>
+        <dd>{{ $user->area }}</dd>
+        <dt>URL</dt>
         <dd>{{ $user->url }}</dd>
         <dt>ショップ情報</dt>
         <dd>{{ $user->prof }}</dd>
