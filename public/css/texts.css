@@ -287,6 +287,9 @@ i.fa-undo{
         background-size: 100% 1000px;
         height: 1000px;
     }
+    .texts-content h1{
+        padding-left: 10px;
+    }
     .text{
         width: 46%;
     }
