@@ -59,7 +59,7 @@
     </dl>
     <h2 class="on">ショップ名</h2>
     <ul class="on">
-        {{ $user->name }}
+        <li class="on">{{ $user->name }}</li>
     </ul>
     <dl class="on">
         <dt>メールアドレス</dt>
