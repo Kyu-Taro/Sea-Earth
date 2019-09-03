@@ -365,6 +365,7 @@ a.delete{
         color: orange;
         position: relative;
         left: 41px;
+        margin-left: 50px;
     }
     p.on{
         font-size: 23px;
