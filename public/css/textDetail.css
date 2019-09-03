@@ -196,6 +196,10 @@ a{
     padding: 30px 30px 100px 30px;
     border-radius: 4px;
 }
+.img{
+    width: 700px;
+    margin: auto;
+}
 
 /*
     ====================
