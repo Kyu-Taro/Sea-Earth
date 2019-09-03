@@ -367,8 +367,10 @@ a.delete{
         left: 41px;
     }
     ul.on{
-        display: inline-block;
+        max-width: 280px;
+        min-width: 280px;
         float: right;
+        margin-right: 60px;
     }
     dl.on{
         width: 100%;
