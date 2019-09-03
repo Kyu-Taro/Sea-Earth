@@ -211,7 +211,7 @@ a{
      box-sizing: border-box;
      z-index: 10;
  }
- .kou{
+ .reskou{
     position: fixed;
     width: 40%;
     margin: auto;
@@ -335,7 +335,7 @@ a{
             広告
     ====================
  */
-    .kou{
+    .kou .on{
         position: fixed;
         bottom: 0;
         width: 100%;
