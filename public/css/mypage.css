@@ -360,11 +360,19 @@ a.delete{
     }
     h2.on{
         display: inline-block;
+        margin-left: 60px;
         margin-top: 50px;
         color: orange;
         position: relative;
         left: 41px;
-        margin-left: 15px
+    }
+    p.on{
+        font-size: 23px;
+        margin-top: 20px;
+        margin-right: 10px;
+        float: right;
+        max-width: 280px;
+        min-width: 280px;
     }
     ul.on{
         float: right;
