@@ -62,7 +62,9 @@
         <dd>{{ $user->prof }}</dd>
     </dl>
     <h2 class="on">ショップ名</h2>
-    <p class="on">{{ $user->name }}</p>
+    <ul class="on">
+        <li>{{ $user->name }}</li>
+    </ul>
     <dl class="on">
         <dt>メールアドレス</dt>
         <dd>{{ $user->email }}</dd>
