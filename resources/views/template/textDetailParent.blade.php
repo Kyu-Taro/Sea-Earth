@@ -21,8 +21,8 @@
     @yield('header')
 
     <section>
-        <div class="text-container res">
-            <div class="kou-container">
+        <div class="text-container">
+            <div class="kou-container res">
                 <a class="reskou" href="https://px.a8.net/svt/ejp?a8mat=35NQEK+98TBXU+AD2+2HCY6P" rel="nofollow">
                     <img class="reskou" border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=190903916559&wid=001&eno=01&mid=s00000001343015009000&mc=1"></a>
                     <img class="reskou" border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=35NQEK+98TBXU+AD2+2HCY6P" alt="">

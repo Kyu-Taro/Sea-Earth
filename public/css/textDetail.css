@@ -220,6 +220,9 @@ a{
     margin-left: 15%;
     height: 68px;
 }
+.on{
+    display: none;
+}
 
 /*
 ===========================
@@ -340,5 +343,8 @@ a{
         bottom: 0;
         width: 100%;
         z-index: 10;
+    }
+    .res{
+        display: none;
     }
  }
