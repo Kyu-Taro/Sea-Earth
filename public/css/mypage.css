@@ -369,9 +369,10 @@ a.delete{
     ul.on{
         float: right;
         margin-right: 60px;
+        text-align: right;
     }
     ul.on li{
-        float:right;
+        float: right;
         max-width: 280px;
         min-width: 280px;
     }
