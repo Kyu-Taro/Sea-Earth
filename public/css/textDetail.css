@@ -202,8 +202,16 @@ a{
             広告
     ====================
  */
+ .kou-container{
+     width: 100px;
+     position: fixed;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.63);
+ }
  .kou{
     position: fixed;
+    width: 40%;
+    margin: auto;
     bottom: 0;
     z-index: 10;
 }
