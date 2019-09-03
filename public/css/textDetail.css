@@ -203,10 +203,11 @@ a{
     ====================
  */
  .kou-container{
-     width: 100px;
+     width: 100%;
      position: fixed;
      bottom: 0;
      background: rgba(0, 0, 0, 0.63);
+     text-align: center;
  }
  .kou{
     position: fixed;
