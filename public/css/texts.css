@@ -309,4 +309,15 @@ i.fa-undo{
         width: 152px;
         height: 152px;
     }
+/*
+    ====================
+            広告
+    ====================
+ */
+ .kou{
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     z-index: 10;
+ }
 }
