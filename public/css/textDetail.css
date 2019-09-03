@@ -207,7 +207,8 @@ a{
      position: fixed;
      bottom: 0;
      background: rgba(0, 0, 0, 0.63);
-     text-align: center;
+     height: 68px;
+     box-sizing: border-box;
  }
  .kou{
     position: fixed;
@@ -215,6 +216,8 @@ a{
     margin: auto;
     bottom: 0;
     z-index: 10;
+    margin-left: 17.5%;
+    height: 68px;
 }
 
 /*
