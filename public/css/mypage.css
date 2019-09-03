@@ -364,6 +364,7 @@ a.delete{
         color: orange;
         position: relative;
         left: 41px;
+        margin-left: 15px
     }
     ul.on{
         float: right;
