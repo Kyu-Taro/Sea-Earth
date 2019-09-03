@@ -214,9 +214,26 @@ i.fa-undo{
         広告
 =====================
  */
-.kou{
+ .kou-container{
+    width: 100%;
     position: fixed;
     bottom: 0;
+    background: rgba(0, 0, 0, 0.63);
+    height: 68px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.reskou{
+   position: fixed;
+   width: 40%;
+   margin: auto;
+   bottom: 0;
+   z-index: 10;
+   margin-left: 15%;
+   height: 68px;
+}
+.on{
+   display: none;
 }
 
 
@@ -314,10 +331,14 @@ i.fa-undo{
             広告
     ====================
  */
- .kou{
-     position: fixed;
-     bottom: 0;
-     width: 100%;
-     z-index: 10;
- }
+ .on{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+.res{
+    display: none;
+}
 }
