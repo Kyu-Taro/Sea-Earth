@@ -187,6 +187,8 @@ i.fa-undo{
 .mypage-content dl{
     float: right;
     font-size: 16px;
+}
+dl{
     width: 50%;
 }
 .mypage-content dl dt{
