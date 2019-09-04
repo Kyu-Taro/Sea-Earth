@@ -36,7 +36,7 @@
     @foreach ($texts as $text)
         <div class="text">
             <div class="image">
-                <a href="text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
+                <a href="/text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
             </div>
             ショップ名:<br/><a href="user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/>
             エリア:　{{ $text->user->area }}<br/>
