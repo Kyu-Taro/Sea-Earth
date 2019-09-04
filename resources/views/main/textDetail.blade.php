@@ -1,5 +1,5 @@
 @extends('template.textDetailParent')
-@section('href',url('/css/textDetail.css'))
+@section('href','/css/textDetail.css')
 @section('title','Sea&Earth|画像詳細')
 
 <i class="fas fa-bars"></i>
