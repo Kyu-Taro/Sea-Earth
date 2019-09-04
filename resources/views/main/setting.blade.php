@@ -67,12 +67,12 @@
             <span class="error">{{ $errors->first('url') }}</span>
         @endif
         <br/>
+        <input type="text" name="url" value="{{ $user->url }}"><br/>
         誘導先URL
         @if ($errors->has('url2'))
             <span class="error">{{ $errors->first('url2') }}</span>
         @endif<br/>
         <input type="text" value="{{ $user->url2 }}"><br/>
-        <input type="text" name="url" value="{{ $user->url }}"><br/>
         ショップ情報
         @if ($errors->has('prof'))
             <span class="error">{{ $errors->first('prof') }}</span>
