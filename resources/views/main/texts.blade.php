@@ -40,6 +40,8 @@
             </div>
             ショップ名:<br/><a href="user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/>
             エリア:　{{ $text->user->area }}<br/>
+            エリア詳細: {{ $text->area2 }}<br/>
+            季節: {{ $text->season }}<br/>
             URL: <a href="{{ $text->user->url }}">ショップはちら</a><br/>
             <div class="text-area">
                 {{ $text->text }}

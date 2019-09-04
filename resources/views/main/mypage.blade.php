@@ -87,6 +87,8 @@
                 </div>
                 <span class="bold">ショップ名:</span> {{ $text->user->name }}<br/>
                 <span class="bold">エリア:</span> {{ $text->user->area }}<br/>
+                <span class="bold">エリア詳細:</span>{{ $text->area2 }}<br/>
+                <span class="bold">季節:</span>{{ $text->season }}<br/>
                 <span class="bold">URL:</span> <a href="{{ $text->user->url }}">ショップはこちら</a><br/>
                 <div class="text-area">
                     {{ $text->text }}

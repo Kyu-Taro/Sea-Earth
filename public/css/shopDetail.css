@@ -220,8 +220,8 @@ dl{
     border: 1px solid rgb(241, 241, 241);
     padding: 15px 15px 30px 15px;
     border-radius: 4px;
-    max-height: 360px;
-    min-height: 360px;
+    max-height: 425px;
+    min-height: 425px;
     width: 23%;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.678);
