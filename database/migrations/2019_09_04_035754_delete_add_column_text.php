@@ -14,7 +14,7 @@ class DeleteAddColumnText extends Migration
     public function up()
     {
         Schema::table('texts', function (Blueprint $table) {
-            $table->dropColumn('month');
+            $table->string('season');
         });
     }
 
