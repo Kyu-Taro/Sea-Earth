@@ -15,7 +15,7 @@ class Text extends Model
     ];
 
     protected $fillable = [
-        'shop_id','text','img'
+        'shop_id','text','img','area2','season',
     ];
 
     public function user()

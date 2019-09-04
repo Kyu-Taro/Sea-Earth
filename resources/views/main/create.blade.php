@@ -55,6 +55,22 @@
             <img src="" class="prev-img" style="display: none">
             <input type="file" name="img" class="input-file"><br/>
         </div>
+        撮影エリア詳細
+        @if ($errors->has('area2'))
+            <span class="error">{{ $errors->first('area2') }}</span>
+        @endif<br/>
+        <input type="text" name="area2"><br/>
+        撮影季節
+        @if ($errors->has('season'))
+            <span class="error">{{ $errors->first('season') }}</span>
+        @endif<br/>
+        <select name="season">
+            <option value="0">選択</option>
+            <option value="春">春</option>
+            <option value="夏">夏</option>
+            <option value="秋">秋</option>
+            <option value="冬">冬</option>
+        </select><br/>
         写真情報
         @if ($errors->has('text'))
             <span class="error">{{ $errors->first('text') }}</span>

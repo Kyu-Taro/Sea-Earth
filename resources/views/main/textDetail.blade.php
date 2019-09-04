@@ -1,5 +1,5 @@
 @extends('template.textDetailParent')
-@section('href','/css/textDetail.css')
+@section('href',url('/css/textDetail.css'))
 @section('title','Sea&Earth|画像詳細')
 
 <i class="fas fa-bars"></i>
@@ -50,7 +50,7 @@
             <img src="{{ $text->img }}"><br/>
         </div>
         <div class="text-area-container">
-            <div class="text-area">ショップ名: <a href="/user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/></div>
+            <div class="text-area">ショップ名: <a href="{{ url("/user/{$text->user->id}") }}">{{ $text->user->name }}</a><br/></div>
             <div class="text-area">エリア: {{ $text->user->area }}<br/></div>
             <div class="text-area">URL: <a href="{{ $text->user->url }}">ショップはこちら</a><br/></div>
             <div class="text-area">{{ $text->text }}</div>
