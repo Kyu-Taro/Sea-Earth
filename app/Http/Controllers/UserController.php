@@ -95,6 +95,7 @@ class UserController extends Controller
                 $user->name = $request->input('name');
                 $user->area = $request->input('area');
                 $user->url = $request->input('url');
+                $user->url2 = $request->input('url2');
                 $user->prof = $request->input('prof');
                 $user->email = $request->input('email');
                 $user->save();
