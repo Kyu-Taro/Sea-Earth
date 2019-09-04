@@ -1,6 +1,6 @@
 @extends('template.mypageParent')
 @section('title','Sea&Earth|ショップ詳細')
-@section('href',url('/css/shopDetail.css'))
+@section('href','/css/shopDetail.css')
 <i class="fas fa-bars"></i>
 <i class="fas fa-undo"></i>
 <div class="menu">
