@@ -77,7 +77,7 @@
         @endif
         <br/>
         <select name="area">
-            <option value="0">選択してください</option>
+            <option value="0">選択</option>
             <option value="沖縄">沖縄</option>
             <option value="伊豆半島">伊豆半島</option>
             <option value="千葉・房総半島">千葉・房総半島</option>
