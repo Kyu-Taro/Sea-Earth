@@ -330,6 +330,10 @@ i.fa-undo{
     .image{
         text-align: center;
     }
+    .text{
+        margin-left: 0;
+        min-height: 380px;
+    }
 /*
     ====================
             広告
