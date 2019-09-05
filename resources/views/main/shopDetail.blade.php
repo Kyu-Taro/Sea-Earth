@@ -79,7 +79,7 @@
         @foreach ($texts as $text)
             <div class="texts">
                 <div class="image">
-                    <a href="text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
+                    <a href="/text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
                 </div>
                 <span class="bold">ショップ名:</span> {{ $text->user->name }}<br/>
                 <span class="bold">エリア:</span> {{ $text->user->area }}<br/>
