@@ -28,7 +28,7 @@ class CreateRequest extends FormRequest
             'text' => 'required|max:255',
             'area' => 'notin:0',
             'area2' => 'required|max:255',
-            'seazon' => 'notin:0',
+            'season' => 'notin:0',
         ];
     }
 
