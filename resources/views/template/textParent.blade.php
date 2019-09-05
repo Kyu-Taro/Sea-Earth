@@ -43,6 +43,14 @@
 
     <section>
         <div class="texts-container">
+            <div class="form-container">
+                <div class="site-width">
+                    <div class="form-content">
+                        @yield('form')
+                    </div>
+                </div>
+            </div>
+            
                 <div class="kou-container res">
                         <a class="reskou" href="https://px.a8.net/svt/ejp?a8mat=35NQEK+98TBXU+AD2+2HCY6P" rel="nofollow">
                             <img class="reskou" border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=190903916559&wid=001&eno=01&mid=s00000001343015009000&mc=1"></a>
