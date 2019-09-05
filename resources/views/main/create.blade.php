@@ -55,6 +55,11 @@
             <img src="" class="prev-img" style="display: none">
             <input type="file" name="img" class="input-file"><br/>
         </div>
+        タイトル
+        @if ($errors->has('title'))
+            <span class="error">{{ $errors->first('title') }}</span>
+        @endif<br/>
+        <input type="text" name="title" value="{{ old('title') }}">
         撮影エリア
         @if ($errors->has('area'))
             <span class="error">{{ $errors->first('area') }}</span>
@@ -83,7 +88,7 @@
         @if ($errors->has('area2'))
             <span class="error">{{ $errors->first('area2') }}</span>
         @endif<br/>
-        <input type="text" name="area2"><br/>
+        <input type="text" name="area2" value="{{ old('area2') }}"><br/>
         撮影季節
         @if ($errors->has('season'))
             <span class="error">{{ $errors->first('season') }}</span>
@@ -100,7 +105,7 @@
             <span class="error">{{ $errors->first('text') }}</span>
         @endif
         <br>
-        <textarea name="text" cols="50" rows="10"></textarea>
+        <textarea name="text" cols="50" rows="10">{{ old('text') }}</textarea>
         <input type="submit" value="投稿">
     </form>
 @endsection

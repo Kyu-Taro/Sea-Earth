@@ -29,6 +29,7 @@ class CreateRequest extends FormRequest
             'area' => 'notin:0|required',
             'area2' => 'required|max:255',
             'season' => 'notin:0',
+            'title' => 'required|max:255'
         ];
     }
 
@@ -42,6 +43,8 @@ class CreateRequest extends FormRequest
             'area2.max' => '※255文字以内で入力してください',
             'season.notin' => '※選択必須です',
             'area.notin' => '※選択必須です',
+            'title.required' => '※入力必須です',
+            'title.max' => '※255文字以内で入力してください',
         ];
     }
 }
