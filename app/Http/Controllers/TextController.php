@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\CreateRequest;
 use Illuminate\Support\Facades\Storage;
 use App\Text;
+use App\Helpers;
 
 class TextController extends Controller
 {
@@ -14,14 +15,14 @@ class TextController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request,Helpers $helpers)
     {
-        if (empty(query())) {
+        if ($request->query('text') && $request->query('area') || $request->query('season')) {
+            return redirect()->route('mypage');
+        }else{
             $texts = Text::get();
 
             return view('main.texts', compact('texts'));
-        }else{
-            return redirect()->route('mypage');
         }
     }
 
