@@ -1,5 +1,5 @@
 @extends('template.mypageParent')
-@section('title','マイページ')
+@section('title','Sea&Earth|マイページ')
 @section('href','css/mypage.css')
 
 @if (session('fls_msg'))
