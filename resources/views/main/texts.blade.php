@@ -36,7 +36,7 @@
         @csrf
         <input type="text" placeholder="例)サンゴ" name="text">
         <select name="area">
-            <option value="0">選択</option>
+            <option value="0">エリア選択</option>
             <option value="沖縄">沖縄</option>
             <option value="伊豆半島">伊豆半島</option>
             <option value="千葉・房総半島">千葉・房総半島</option>
@@ -55,7 +55,7 @@
             <option value="その他海外">その他海外</option>
         </select>
         <select name="season">
-                <option value="0">選択</option>
+                <option value="0">季節選択</option>
                 <option value="春">春</option>
                 <option value="夏">夏</option>
                 <option value="秋">秋</option>
