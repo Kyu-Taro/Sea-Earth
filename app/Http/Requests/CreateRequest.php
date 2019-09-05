@@ -26,6 +26,7 @@ class CreateRequest extends FormRequest
         return [
             'img' => 'required',
             'text' => 'required|max:255',
+            'area' => 'notin:0',
             'area2' => 'required|max:255',
             'seazon' => 'notin:0',
         ];
@@ -40,6 +41,7 @@ class CreateRequest extends FormRequest
             'area2.required' => '※入力必須です',
             'area2.max' => '※255文字以内で入力してください',
             'seazon.notin' => '※選択必須です',
+            'area.notin' => '※選択必須です',
         ];
     }
 }

@@ -55,6 +55,30 @@
             <img src="" class="prev-img" style="display: none">
             <input type="file" name="img" class="input-file"><br/>
         </div>
+        撮影エリア
+        @if ($errors->has('area'))
+            <span class="error">{{ $errors->first('area') }}</span>
+        @endif
+        <br/>
+        <select name="area">
+            <option value="0">選択</option>
+            <option value="沖縄">沖縄</option>
+            <option value="伊豆半島">伊豆半島</option>
+            <option value="千葉・房総半島">千葉・房総半島</option>
+            <option value="神奈川">神奈川</option>
+            <option value="小笠原">小笠原</option>
+            <option value="伊豆諸島">伊豆諸島</option>
+            <option value="紀伊半島">紀伊半島</option>
+            <option value="九州">九州</option>
+            <option value="その他国内">その他国内</option>
+            <option vlaue="インド洋・紅海">インド洋・紅海</option>
+            <option value="アジア">アジア</option>
+            <option value="南アフリカ">南アフリカ</option>
+            <option value="太平洋・オーストラリア">太平洋・オーストラリア</option>
+            <option value="ミクロネシア">ミクロネシア</option>
+            <option value="カリブ海">カリブ海</option>
+            <option value="その他海外">その他海外</option>
+        </select><br/>
         撮影エリア詳細
         @if ($errors->has('area2'))
             <span class="error">{{ $errors->first('area2') }}</span>
