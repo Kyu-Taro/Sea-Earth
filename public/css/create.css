@@ -150,11 +150,11 @@ span.comment{
  */
 .form-contents{
     margin: auto;
-    height: 1000px;
+    height: 1200px;
     background-image: url(../img/seapearth-back2.jpg);
     background-repeat:  no-repeat;
     background-position: center;
-    background-size: 100% 1000px;
+    background-size: 100% 1200px;
 }
 .form-contents h1{
     color: rgb(241, 241, 241);;
@@ -165,7 +165,7 @@ span.comment{
 .form-top{
     background:rgba(10, 10, 10, 0.555);
     display: none;
-    height: 1000px;
+    height: 1200px;
 }
 .form-container{
     color: rgb(241, 241, 241);
