@@ -26,7 +26,7 @@ class CreateRequest extends FormRequest
         return [
             'img' => 'required',
             'text' => 'required|max:255',
-            'area' => 'notin:0',
+            'area' => 'notin:0|required',
             'area2' => 'required|max:255',
             'season' => 'notin:0',
         ];
