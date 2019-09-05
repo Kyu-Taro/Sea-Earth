@@ -26,7 +26,7 @@ class SettingRequest extends FormRequest
         return [
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255',
-            'area' => ' required|string',
+            'area' => 'notin:0',
             'url' => 'required|active_url',
             'prof' => 'required|max:255',
         ];
@@ -42,8 +42,7 @@ class SettingRequest extends FormRequest
             'email.string' => '※文字で入力してください',
             'email.email' => '※メールアドレスを入力してください',
             'email.max' => '※255文字以内で入力してください',
-            'area.required' => '※入力必須です',
-            'area.string' => '※文字で入力してください',
+            'area.notin' => '※選択してください',
             'url.required' => '※入力必須です',
             'url.active_url' => '※有効なURLを指定してください',
             'prof.required' => '※入力必須です',
