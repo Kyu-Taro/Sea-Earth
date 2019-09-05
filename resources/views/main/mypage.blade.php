@@ -86,7 +86,7 @@
                     <a href="text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
                 </div>
                 <span class="bold">ショップ名:</span> {{ $text->user->name }}<br/>
-                <span class="bold">エリア:</span> {{ $text->user->area }}<br/>
+                <span class="bold">撮影エリア:</span> {{ $text->area }}<br/>
                 <span class="bold">エリア詳細:</span>{{ $text->area2 }}<br/>
                 <span class="bold">季節:</span>{{ $text->season }}<br/>
                 <span class="bold">URL:</span> <a href="{{ $text->user->url }}">ショップはこちら</a><br/>
