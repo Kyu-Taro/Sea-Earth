@@ -50,6 +50,7 @@
             <img src="{{ $text->img }}"><br/>
         </div>
         <div class="text-area-container">
+            <div class="text-area">タイトル: {{ $text->title }}</div>
             <div class="text-area">ショップ名: <a href="/user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/></div>
             <div class="text-area">撮影エリア: {{ $text->area }}<br/></div>
             <div class="text-area">エリア詳細: {{ $text->area2 }}<br/></div>
