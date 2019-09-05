@@ -31,6 +31,40 @@
     @endcomponent
 @endsection
 
+@section('form')
+    <form action="" method="GET">
+        @csrf
+        <input type="text" placeholder="例)サンゴ" name="text">
+        <select name="area">
+            <option value="0">選択</option>
+            <option value="沖縄">沖縄</option>
+            <option value="伊豆半島">伊豆半島</option>
+            <option value="千葉・房総半島">千葉・房総半島</option>
+            <option value="神奈川">神奈川</option>
+            <option value="小笠原">小笠原</option>
+            <option value="伊豆諸島">伊豆諸島</option>
+            <option value="紀伊半島">紀伊半島</option>
+            <option value="九州">九州</option>
+            <option value="その他国内">その他国内</option>
+            <option vlaue="インド洋・紅海">インド洋・紅海</option>
+            <option value="アジア">アジア</option>
+            <option value="南アフリカ">南アフリカ</option>
+            <option value="太平洋・オーストラリア">太平洋・オーストラリア</option>
+            <option value="ミクロネシア">ミクロネシア</option>
+            <option value="カリブ海">カリブ海</option>
+            <option value="その他海外">その他海外</option>
+        </select>
+        <select name="season">
+                <option value="0">選択</option>
+                <option value="春">春</option>
+                <option value="夏">夏</option>
+                <option value="秋">秋</option>
+                <option value="冬">冬</option>
+        </select>
+        <input type="submit" value="検索">
+    </form>
+@endsection
+
 @section('top-title','写真一覧')
 @section('texts')
     @foreach ($texts as $text)

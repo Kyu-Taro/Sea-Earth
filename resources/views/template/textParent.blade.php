@@ -32,6 +32,16 @@
     @yield('header')
 
     <section>
+        <div class="form-container">
+            <div class="site-width">
+                <div class="form-content">
+                    @yield('form')
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="texts-container">
                 <div class="kou-container res">
                         <a class="reskou" href="https://px.a8.net/svt/ejp?a8mat=35NQEK+98TBXU+AD2+2HCY6P" rel="nofollow">
