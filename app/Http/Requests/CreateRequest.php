@@ -40,7 +40,7 @@ class CreateRequest extends FormRequest
             'text.max' => '※255文字以内で入力してください',
             'area2.required' => '※入力必須です',
             'area2.max' => '※255文字以内で入力してください',
-            'seazon.notin' => '※選択必須です',
+            'season.notin' => '※選択必須です',
             'area.notin' => '※選択必須です',
         ];
     }
