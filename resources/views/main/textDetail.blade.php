@@ -51,7 +51,7 @@
         </div>
         <div class="text-area-container">
             <div class="text-area">ショップ名: <a href="/user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/></div>
-            <div class="text-area">エリア: {{ $text->user->area }}<br/></div>
+            <div class="text-area">撮影エリア: {{ $text->area }}<br/></div>
             <div class="text-area">エリア詳細: {{ $text->area2 }}<br/></div>
             <div class="text-area">季節:</span>{{ $text->season }}<br/></div>
             <div class="text-area">URL: <a href="{{ $text->user->url }}">ショップはこちら</a><br/></div>
