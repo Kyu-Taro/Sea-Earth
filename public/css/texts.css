@@ -208,6 +208,11 @@ i.fa-undo{
     overflow: auto;
     height: 800px;
 }
+.form-content{
+    float: right;
+    margin-top: 150px;
+
+}
 
 /*
 =====================
