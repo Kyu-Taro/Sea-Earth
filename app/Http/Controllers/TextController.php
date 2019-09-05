@@ -17,7 +17,7 @@ class TextController extends Controller
      */
     public function index(Request $request,Helpers $helpers)
     {
-        if ($request->query('text') && $request->query('area') || $request->query('season')) {
+        if ($request->query('text') || $request->query('area') || $request->query('season')) {
             return redirect()->route('mypage');
         }else{
             $texts = Text::get();
