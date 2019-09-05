@@ -110,7 +110,6 @@
             <option value="鹿児島">鹿児島</option>
             <option value="沖縄">沖縄</option>
         </select><br/>
-        <input type="text" name="area" value="{{ $user->area }}"><br/>
         URL
         @if ($errors->has('url'))
             <span class="error">{{ $errors->first('url') }}</span>

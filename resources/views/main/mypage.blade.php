@@ -54,7 +54,7 @@
         <dd>{{ $user->name }}</dd>
         <dt>メールアドレス</dt>
         <dd>{{ $user->email }}</dd>
-        <dt>area</dt>
+        <dt>ショップエリア</dt>
         <dd>{{ $user->area }}</dd>
         <dt>url</dt>
         <dd>{{ $user->url }}</dd>
