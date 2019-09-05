@@ -16,9 +16,13 @@ class TextController extends Controller
      */
     public function index()
     {
-        $texts = Text::get();
+        if (empty(query())) {
+            $texts = Text::get();
 
-        return view('main.texts',compact('texts'));
+            return view('main.texts', compact('texts'));
+        }else{
+            return redirect()->route('mypage');
+        }
     }
 
     /**

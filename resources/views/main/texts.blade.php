@@ -32,7 +32,7 @@
 @endsection
 
 @section('form')
-    <form action="" method="GET">
+    <form action="text" method="GET">
         @csrf
         <input type="text" placeholder="例)サンゴ" name="text">
         <select name="area">
