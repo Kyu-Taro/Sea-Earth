@@ -17,7 +17,7 @@
 @section('header')
     @component('components.header')
     @slot('link1')
-        ./
+        /
     @endslot
     @slot('nav1')
         Top
@@ -29,7 +29,7 @@
         Register
     @endslot
     @slot('link3')
-        photos
+        text
     @endslot
     @slot('nav3')
         Photos
@@ -69,22 +69,22 @@
 @section('footer')
 @component('components.footer')
     @slot('link1')
-        ./
+        /
     @endslot
     @slot('nav1')
         Top
     @endslot
     @slot('link2')
-        login
+        register
     @endslot
     @slot('nav2')
-        Login
+        Register
     @endslot
     @slot('link3')
-        detail
+        text
     @endslot
     @slot('nav3')
-        Detail
+        Photos
     @endslot
     @slot('link4')
         mypage
