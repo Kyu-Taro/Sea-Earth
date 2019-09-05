@@ -38,8 +38,8 @@
             <div class="image">
                 <a href="/text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
             </div>
-            ショップ名:<a href="user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/>
-            エリア:　{{ $text->user->area }}<br/>
+            ショップ名: <a href="user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/>
+            エリア: {{ $text->user->area }}<br/>
             エリア詳細: {{ $text->area2 }}<br/>
             季節: {{ $text->season }}<br/>
             URL: <a href="{{ $text->user->url }}">ショップはちら</a><br/>
