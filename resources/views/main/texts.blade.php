@@ -38,6 +38,7 @@
             <div class="image">
                 <a href="/text/{{ $text->id }}"><img src="{{ $text->img }}"></a><br/>
             </div>
+            タイトル: {{ $text->title }}<br/>
             ショップ名: <a href="user/{{ $text->user->id }}">{{ $text->user->name }}</a><br/>
             撮影エリア: {{ $text->area }}<br/>
             エリア詳細: {{ $text->area2 }}<br/>
