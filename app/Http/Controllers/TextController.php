@@ -18,10 +18,10 @@ class TextController extends Controller
     public function index(Request $request,Helpers $helpers)
     {
         if ($request->query('word') || $request->query('area') || $request->query('season')) {
-            $text = query('word');
-            $area = query('area');
-            $season = query('season');
-            // $texts = $helpers->decision($text,$area,$season);
+            $text = $request->query('word');
+            $area = $request->query('area');
+            $season = $request->query('season');
+            $texts = $helpers->decision($text,$area,$season);
 
             return view('main.texts',compact('texts'));
         }else{
