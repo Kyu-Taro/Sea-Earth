@@ -14,6 +14,10 @@
 //Authルート
 Auth::routes();
 
+Route::get('/err',function(){
+    trigger_error("エラー",E_USER_ERROR);
+});
+
 //トップページルート
 Route::get('/','MainController@index')->name('index');
 //ログアウトルート

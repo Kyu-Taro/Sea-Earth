@@ -27,7 +27,7 @@ class TextController extends Controller
         }else{
             $texts = Text::get();
 
-            return view('main.texts', compact('texts'));
+            return view('main.texts',compact('texts'));
         }
     }
 
