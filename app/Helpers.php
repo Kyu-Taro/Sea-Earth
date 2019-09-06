@@ -42,11 +42,9 @@ class Helpers{
                     return $data;
                 }
             }else{
-                if(!empty($seaon)){
-                    //季節のみ選択があった
-                    $data = Text::where('season',$season)->get();
-                    return $data;
-                }
+                //季節のみ選択があった
+                $data = Text::where('season',$season)->get();
+                return $data;
             }
         }
     }
