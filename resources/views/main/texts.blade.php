@@ -34,7 +34,7 @@
 @section('form')
     <form action="text" method="GET">
         @csrf
-        <input type="word" placeholder="例)サンゴ" name="text">
+        <input type="text" placeholder="例)サンゴ" name="word">
         <select name="area">
             <option value="0">エリア選択</option>
             <option value="沖縄">沖縄</option>
