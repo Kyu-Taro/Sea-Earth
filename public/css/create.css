@@ -334,11 +334,11 @@ select{
         background-image: url(../img/sea-earth-top.jpg);
         background-repeat:  no-repeat;
         background-position: center;
-        background-size: 100% 1280px;
-        height: 1280px;
+        background-size: 100% 1350px;
+        height: 1350px;
     }
     .form-top{
-        height: 1280px;
+        height: 1350px;
     }
     .top-title h1{
         font-size: 30px;
