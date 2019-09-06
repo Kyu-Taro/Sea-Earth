@@ -338,6 +338,9 @@ select{
         background-size: 100% 1000px;
         height: 1000px;
     }
+    .texts-content{
+        padding-top: 290px;
+    }
     .texts-content h1{
         padding-left: 10px;
     }
@@ -355,6 +358,9 @@ select{
     .text{
         margin-left: 0;
         min-height: 380px;
+    }
+    .form-content{
+        float: left;
     }
     input[type="text"]{
         height: 28px;
