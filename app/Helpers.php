@@ -12,37 +12,37 @@ class Helpers{
             if(!empty($area)){
                 if(!empty($season)){
                     // 全部選択されている場合
-                    $data =Text::where('title','%'.$text.'%')->where('season',$season)->where('area',$area)->get();
+                    $data =Text::where('title','like','%'.$text.'%')->where('season',$season)->where('area',$area)->get();
                     return $data;
                 }else{
                     //テキストとエリアの選択されている
-                    $data = Text::where('title','%'.$text.'%')->where('area',$area)->get();
+                    $data = Text::where('title','like','%'.$text.'%')->where('area',$area)->get();
                     return $data;
                 }
             }else{
                 if(!empty($season)){
                     //テキストと季節のみ選択されている
-                    $data = Text::where('title','%'.$text.'%')->where('season','$season')->get();
+                    $data = Text::where('title','like','%'.$text.'%')->where('season','$season')->get();
                     return $data;
                 }else{
                     //テキストのみ選択された
-                    $data = Text::where('title','%'.$text.'%')->get();
+                    $data = Text::where('title','like','%'.$text.'%')->get();
                     return $data;
                 }
             }
         }else{
             if(!empty($area)){
                 if(!empty($season)){
-                    //季節のエリアのみ選択があった
+                    //季節とエリアのみ選択があったOK
                     $data = Text::where('season',$season)->where('area',$area)->get();
                     return $data;
                 }else{
-                    //エリアのみ選択があった
+                    //エリアのみ選択があったOK
                     $data = Text::where('area',$area)->get();
                     return $data;
                 }
             }else{
-                //季節のみ選択があった
+                //季節のみ選択があったOK
                 $data = Text::where('season',$season)->get();
                 return $data;
             }
