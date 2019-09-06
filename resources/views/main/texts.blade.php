@@ -34,7 +34,7 @@
 @section('form')
     <form action="text" method="GET">
         @csrf
-        <input type="text" placeholder="例)サンゴ" name="word">
+        <input type="text" placeholder="例)サンゴ" name="word"><br class="on">
         <select name="area">
             <option value="0">エリア選択</option>
             <option value="沖縄">沖縄</option>
@@ -60,7 +60,7 @@
                 <option value="夏">夏</option>
                 <option value="秋">秋</option>
                 <option value="冬">冬</option>
-        </select>
+        </select><br class="on">
         <input type="submit" value="検索">
     </form>
 @endsection
