@@ -12,21 +12,21 @@ class Helpers{
             if(!empty($area)){
                 if(!empty($season)){
                     // 全部選択されている場合
-                    $data =Text::where('text','%'.$text.'%')->where('season',$season)->where('area',$area)->get();
+                    $data =Text::where('title','%'.$text.'%')->where('season',$season)->where('area',$area)->get();
                     return $data;
                 }else{
                     //テキストとエリアの選択されている
-                    $data = Text::where('text','%'.$text.'%')->where('area',$area)->get();
+                    $data = Text::where('title','%'.$text.'%')->where('area',$area)->get();
                     return $data;
                 }
             }else{
                 if(!empty($season)){
                     //テキストと季節のみ選択されている
-                    $data = Text::where('text','%'.$text.'%')->where('season','$season')->get();
+                    $data = Text::where('title','%'.$text.'%')->where('season','$season')->get();
                     return $data;
                 }else{
                     //テキストのみ選択された
-                    $data = Text::where('text','%'.$text.'%')->get();
+                    $data = Text::where('title','%'.$text.'%')->get();
                     return $data;
                 }
             }
