@@ -21,7 +21,7 @@ class TextController extends Controller
             $text = query('word');
             $area = query('area');
             $season = query('season');
-            $texts = $helpers->decision($text,$area,$season);
+            // $texts = $helpers->decision($text,$area,$season);
 
             return view('main.texts',compact('texts'));
         }else{
