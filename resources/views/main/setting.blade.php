@@ -120,7 +120,7 @@
         @if ($errors->has('url2'))
             <span class="error">{{ $errors->first('url2') }}</span>
         @endif<br/>
-        <input type="text" value="{{ $user->url2 }}"><br/>
+        <input type="text" value="{{ $user->url2 }}" name="url2"><br/>
         ショップ情報
         @if ($errors->has('prof'))
             <span class="error">{{ $errors->first('prof') }}</span>
