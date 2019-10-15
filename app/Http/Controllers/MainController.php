@@ -62,7 +62,7 @@ class MainController extends Controller
     }
 
     //パス変更アクション
-    public function pass_re(Request $request,PassRequest $validata)
+    public function pass_re(Request $request,PassRequest $validate)
     {
         $user = Auth::user();
         $pass = $request->input('pass');

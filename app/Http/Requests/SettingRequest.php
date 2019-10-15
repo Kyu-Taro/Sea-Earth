@@ -28,7 +28,7 @@ class SettingRequest extends FormRequest
             'email' => 'required|string|email|max:255',
             'area' => 'not_in:0',
             'url' => 'required|active_url',
-            'url2' => 'require|active_url',
+            'url2' => 'required|active_url',
             'prof' => 'required|max:255',
         ];
     }
