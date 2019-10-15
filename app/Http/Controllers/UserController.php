@@ -81,7 +81,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id,SettingRequest $validata)
+    public function update(Request $request, $id,SettingRequest $validate)
     {
             $form = $request->all();
             unset($form['_token']);
